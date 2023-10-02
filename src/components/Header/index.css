@@ -1,0 +1,18 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #152850;
+  padding: 40px;
+  width: 100vw;
+}
+.button {
+  background-color: transparent;
+  padding: 10px;
+  border: 2px white solid;
+  color: white;
+  cursor: pointer;
+  font-family: 'roboto';
+  font-weight: bold;
+}

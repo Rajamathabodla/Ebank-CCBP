@@ -1,0 +1,34 @@
+.bg-home-container {
+  background-color: #152850;
+  height: 100vh;
+  width: 100vw;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #152850;
+  padding: 40px;
+  width: 100vw;
+}
+.button {
+  background-color: transparent;
+  padding: 10px;
+  border: 2px white solid;
+  color: white;
+  cursor: pointer;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.heading {
+  font-family: 'roboto';
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
