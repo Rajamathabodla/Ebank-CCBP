@@ -13,13 +13,13 @@ class Login extends Component {
     em: '',
   }
 
-  one = event => {
+  userEvent = event => {
     this.setState({
       userId: event.target.value,
     })
   }
 
-  two = event => {
+  pinInput = event => {
     this.setState({
       pin: event.target.value,
     })
@@ -87,7 +87,7 @@ class Login extends Component {
                 className="input"
                 placeholder="Enter User ID"
                 value={userId}
-                onChange={this.one}
+                onChange={this.userEvent}
               />
               <label htmlFor="pin" className="label">
                 PIN
@@ -98,7 +98,7 @@ class Login extends Component {
                 className="input"
                 placeholder="Enter PIN"
                 value={pin}
-                onChange={this.two}
+                onChange={this.pinInput}
               />
               <button type="submit" className="button">
                 Login
